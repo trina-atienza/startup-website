@@ -1,0 +1,10 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card-header{
+	color:#fd8c3e;
+	text-align: center;
+	font-weight: 1000;
+}

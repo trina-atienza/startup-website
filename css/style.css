@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@300");
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");  
+
+body {
+  background: #e8e5e0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 3.5px;
+  font-size: 30px;
+  margin-top: -1px;
+  }
+
+#apply-section{
+  color:#fd8c3e;
+  text-align: center;
+  font-weight: 1000;
+  margin: 40px;
+}
+
+
+  a{
+  	text-decoration: none;
+  }
+
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px */
+  .container {
+    width: 300px;
+  }
